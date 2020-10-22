@@ -1,0 +1,84 @@
+body{
+    color: rgb(4, 4, 88);
+    background-image:url(../image/fdsf.jpg);
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+}
+.form-control{
+    min-height: 20px;
+    box-shadow: none;
+    border-color: rgb(209, 49, 49);
+}
+.form-control:focus{
+    border-color: rgb(49, 8, 8);
+}
+.form-control, .btn{
+    border-radius: 4px;
+}
+.form-header{
+    margin: -30px -30px 20px;
+    padding: 30px 30px 10px;
+    text-align: center;
+    background: cornflowerblue;
+    border-bottom: 1px solid red;
+    color: darkblue;
+}
+.form-header h1{
+    font-size: 34px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    font-family: sans-serif;
+}
+
+.form-header p{
+    font-size: 17px;
+    font-weight: bold;
+    margin: 20px 0 15px;
+    font-family: sans-serif;
+}
+.signin-form{
+    width: 390px;
+    margin: 0 auto;
+    padding: 30px 0;
+    
+}
+
+.signin-form form{
+    color: rgb(7, 19, 19);
+    border-radius: 4px;
+    margin-bottom: 15px;
+    background: darkgray;
+    padding: 30px;
+    
+}
+
+.signin-form .form-group{
+    margin-bottom: 20px;
+    
+}
+
+.signin-form label{
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.signin-form button{
+    font-size: 16px;
+    font-weight: bold;
+    background: rgb(93, 245, 93);
+    border: none;
+    min-width: 200px;
+}
+
+.signin-form button:hover, .signin-form button:focus{
+    background: rgb(218, 192, 241) !important;
+    outline: none;
+}
+
+.signin-form a{
+    color: blueviolet;
+}
+
+.signin-form a:hover{
+    text-decoration: underline;
+}
